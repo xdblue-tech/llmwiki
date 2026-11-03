@@ -1,3 +1,70 @@
 {
-  "skills": []
+  "skills": [
+    "/home/xdblue/.pi/agent/skills/typesafe-ai/SKILL.md",
+    "-/home/xdblue/.pi/agent/skills/typesafe-ai/SKILL.md",
+    "/home/xdblue/.agents/skills/agents-md/SKILL.md",
+    "-/home/xdblue/.agents/skills/agents-md/SKILL.md",
+    "/home/xdblue/.agents/skills/codebase-design/SKILL.md",
+    "-/home/xdblue/.agents/skills/codebase-design/SKILL.md",
+    "/home/xdblue/.agents/skills/domain-modeling/SKILL.md",
+    "-/home/xdblue/.agents/skills/domain-modeling/SKILL.md",
+    "/home/xdblue/.agents/skills/herdr/SKILL.md",
+    "-/home/xdblue/.agents/skills/herdr/SKILL.md",
+    "/home/xdblue/.agents/skills/make-documentation/SKILL.md",
+    "-/home/xdblue/.agents/skills/make-documentation/SKILL.md",
+    "/home/xdblue/.agents/skills/make-interfaces-feel-better/SKILL.md",
+    "-/home/xdblue/.agents/skills/make-interfaces-feel-better/SKILL.md",
+    "/home/xdblue/.agents/skills/writing-for-agents/SKILL.md",
+    "-/home/xdblue/.agents/skills/writing-for-agents/SKILL.md",
+    "/home/xdblue/.agents/skills/wiki-manager/SKILL.md",
+    "+/home/xdblue/.agents/skills/wiki-manager/SKILL.md",
+    "/home/xdblue/.agents/skills/wiki-query/SKILL.md",
+    "+/home/xdblue/.agents/skills/wiki-query/SKILL.md"
+  ],
+  "packages": [
+    {
+      "source": "../../pi-kitten",
+      "autoload": false,
+      "skills": [
+        "-skills/bun/SKILL.md",
+        "-skills/chrome-webstore-release-blueprint/SKILL.md",
+        "-skills/deslop/SKILL.md",
+        "-skills/favicon/SKILL.md",
+        "-skills/knip/SKILL.md",
+        "-skills/rams/SKILL.md",
+        "-skills/react-doctor/SKILL.md",
+        "-skills/simplify/SKILL.md",
+        "-skills/skill-creator/SKILL.md",
+        "-skills/tdd/SKILL.md"
+      ]
+    },
+    {
+      "source": "npm:@narumitw/pi-plan-mode",
+      "autoload": false,
+      "extensions": [
+        "-dist/index.ts"
+      ]
+    },
+    {
+      "source": "npm:pi-subagents",
+      "autoload": false,
+      "skills": [
+        "-skills/council-mode/SKILL.md"
+      ],
+      "prompts": [
+        "-prompts/council.md",
+        "-prompts/gather-context-and-clarify.md",
+        "-prompts/parallel-cleanup.md",
+        "-prompts/parallel-review.md",
+        "-prompts/review-loop.md"
+      ]
+    }
+  ],
+  "prompts": [
+    "/home/xdblue/.pi/agent/prompts/full-research.md",
+    "-/home/xdblue/.pi/agent/prompts/full-research.md"
+  ],
+  "extensions": [
+    "-builtin:llama.cpp"
+  ]
 }
